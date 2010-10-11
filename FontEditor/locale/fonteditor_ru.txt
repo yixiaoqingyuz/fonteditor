@@ -1,0 +1,169 @@
+# Frame data
+frame.editor.title={0}{1} - Редактор шрифтов
+frame.editor.untitled.name=Безымянный
+
+# Menu data
+menu.file.caption=Файл
+menu.edit.caption=Правка
+menu.options.caption=Опции
+menu.view.caption=Вид
+menu.help.caption=Помощь
+menu.language.caption=Язык
+menu.lookandfeel.caption=Стиль
+menuitem.new.caption=Новый
+menuitem.open.caption=Открыть
+menuitem.save.caption=Сохранить
+menuitem.saveas.caption=Сохранить как...
+menuitem.export.caption=Экспорт
+menuitem.exit.caption=Выход
+menuitem.undo.caption=Отменить
+menuitem.redo.caption=Вернуть
+menuitem.openimage.caption=Изображение
+menuitem.preferences.caption=Настройки
+menuitem.zoomin.caption=Увеличение
+menuitem.zoomout.caption=Уменьшение
+menuitem.zoomactual.caption=Реальный размер
+checkboxmenuitem.showgrid.caption=Показать сетку
+checkboxmenuitem.showbounds.caption=Показать границы
+menuitem.plugins.caption=Плагины
+menuitem.about.caption=О программе
+menuitem.char.caption="{0}" ({1}) {2}
+
+# ToolBar data
+toolbar.editor.title=Панель инструментов
+toolbar.button.new.caption=
+toolbar.button.new.tooltip=Новый
+toolbar.button.open.caption=
+toolbar.button.open.tooltip=Открыть
+toolbar.button.save.caption=
+toolbar.button.save.tooltip=Сохранить
+toolbar.button.export.caption=
+toolbar.button.export.tooltip=Экспорт
+toolbar.button.undo.caption=
+toolbar.button.undo.tooltip=Отменить
+toolbar.button.redo.caption=
+toolbar.button.redo.tooltip=Вернуть
+toolbar.button.marqueetool.caption=
+toolbar.button.marqueetool.tooltip=Инструмент "Прямоугольная область"
+toolbar.button.selecttool.caption=
+toolbar.button.selecttool.tooltip=Инструмент "Выбор"
+toolbar.button.openimage.caption=
+toolbar.button.openimage.tooltip=Изображение
+toolbar.button.zoomin.caption=
+toolbar.button.zoomin.tooltip=Увеличение
+toolbar.button.zoomout.caption=
+toolbar.button.zoomout.tooltip=Уменьшение
+toolbar.button.zoomactual.caption=
+toolbar.button.zoomactual.tooltip=Реальный размер
+toolbar.button.preferences.caption=
+toolbar.button.preferences.tooltip=Настройки
+
+# Preferences data
+preferences.dialog.title=Настройки
+preferences.tabbedpane.tab.editor.caption=Редактор
+preferences.tabbedpane.tab.preview.caption=Просмотр
+preferences.editor.titledborder.color.title=Цвет
+preferences.editor.label.bounds.caption=Границы
+preferences.editor.colorchooser.bounds.title=Выберите цвет для границ
+preferences.editor.label.background.caption=Фон
+preferences.editor.colorchooser.background.major.title=Выберите основной цвет фона
+preferences.editor.colorchooser.background.minor.title=Выберите второстепенный цвет фона
+preferences.preview.titledborder.text.title=Текст
+preferences.preview.radiobutton.none.caption=Пусто
+preferences.preview.radiobutton.classic.caption=Классический
+preferences.preview.radiobutton.font.caption=Шрифт
+preferences.preview.titledborder.color.title=Цвет
+preferences.preview.label.background.caption=Фон
+preferences.preview.colorchooser.background.title=Выберите основной цвет фона
+preferences.button.ok.caption=ОК
+preferences.button.cancel.caption=Отмена
+preferences.button.apply.caption=Применить
+
+# Plugins data
+plugins.dialog.title=Плагины
+plugins.table.column.provider.title=Поставщик
+plugins.table.column.name.title=Название
+plugins.table.column.version.title=Версия
+plugins.table.column.description.title=Описание
+plugins.button.ok.caption=ОК
+
+# About data
+about.dialog.title=О программе
+about.textpane.title.text=Редактор Шрифтов
+about.textpane.version.text=версия {0}
+about.textpane.copyright.text=© {0} {1}. Все права защищены.
+about.button.ok.caption=ОК
+
+# Editor data
+editor.label.char.caption=Символ
+editor.label.charoffsetx.caption=Отступ X
+editor.label.charoffsety.caption=Отступ Y
+editor.button.add.caption=Добавить
+editor.button.delete.caption=Удалить
+editor.undoableedit.add.name=Добавить "{0}"
+editor.undoableedit.undo.add.name=Отменить Добавить "{0}"
+editor.undoableedit.redo.add.name=Вернуть Добавить "{0}"
+editor.undoableedit.delete.name=Удалить "{0}"
+editor.undoableedit.undo.delete.name=Отменить Удалить "{0}"
+editor.undoableedit.redo.delete.name=Вернуть Удалить "{0}"
+
+# Preview data
+preview.label.size.caption=Размер
+preview.label.spacing.caption=Апрош
+preview.label.leading.caption=Интерлиньяж
+preview.label.preview.caption=Просмотр
+preview.text=Каждый охотник желает знать где сидит фазан
+
+# Status data
+status.label.status.caption=
+status.label.coord.caption={0},{1}
+status.label.dimension.caption={0}x{1}
+status.label.scale.caption={0}%
+
+# Filechooser data
+filechooser.fontopen.title=Выберите файл шрифта для открытия
+filechooser.fontsave.title=Укажите файл для сохранения шрифта 
+filechooser.fontexport.title=Укажите файл для экспорта шрифта 
+filechooser.imageopen.title=Выберите файл изображения для открытия
+
+# Optionpane buttons
+optionpane.button.details.caption=Подробнее
+
+# Dialog titles
+dialog.plain.title=Сообщение!
+dialog.information.title=Важно!
+dialog.question.title=Внимание!
+dialog.warning.title=Предупреждение!
+dialog.error.title=Ошибка!
+
+# Dialog buttons
+dialog.button.ok.caption=ОК
+dialog.button.yes.caption=Да
+dialog.button.no.caption=Нет
+dialog.button.cancel.caption=Отмена
+dialog.button.skip.caption=Пропустить
+dialog.button.retry.caption=Снова
+dialog.button.ignore.caption=Игнорировать
+dialog.button.abort.caption=Прекратить
+
+# Dialog messages
+message.not.image.file.text=Файл "{0}" не является файлом изображения
+message.cant.read.file.text=Невозможно прочитать "{0}" файл!
+message.cant.write.file.text=Невозможно произвести запись в файл "{0}"!
+message.cant.export.file.text=Невозможно произвести экспорт в файл "{0}"!
+message.cant.find.file.text=Файл "{0}" не найден!
+message.file.already.exist.text=Файл "{0}" уже существует! Заменить его?
+message.save.changes.text=Сохранить изменения?
+message.marquee.not.specified.text=Не указана зона символа!
+message.char.not.specified.text=Не указан символ!
+message.char.not.found.text=Символ "{0}" не найден!
+message.char.offset.not.specified.text=Не указан отступ для символа!
+message.char.offset.not.integer.text=Отступ должен иметь числовое значение!
+message.font.format.not.supported.text=Данный формат шрифта не поддерживается!
+message.font.image.file.not.image.text=Файл "{0}" не является файлом изображения!
+message.cant.read.font.image.file.text=Невозможно прочитать файл изображения "{0}"!
+message.cant.find.font.image.file.text=Файл изображения "{0}" не найден!
+message.font.image.file.not.specified.text=Для шрифта не указан файл изображения!
+message.cant.undo.action.text=Невозможно отменить действие "{0}"!
+message.cant.redo.action.text=Невозможно повторить действие "{0}"!
+message.cant.save.properties.file.text=Возникла ошибка во время сохранения файла настроек!

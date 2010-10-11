@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: lib/utils.jar lib/plugin.jar locale/
+Main-Class: com.keitaitoys.fonteditor.FontEditor
+SplashScreen-Image: splash.png
+
+

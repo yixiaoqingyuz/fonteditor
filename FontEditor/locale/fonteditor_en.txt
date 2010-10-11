@@ -1,0 +1,169 @@
+# Frame data
+frame.editor.title={0}{1} - FontEditor
+frame.editor.untitled.name=Untitled
+
+# Menu data
+menu.file.caption=File
+menu.edit.caption=Edit
+menu.options.caption=Options
+menu.view.caption=View
+menu.help.caption=Help
+menu.language.caption=Language
+menu.lookandfeel.caption=Look & Feel
+menuitem.new.caption=New
+menuitem.open.caption=Open
+menuitem.save.caption=Save
+menuitem.saveas.caption=Save As...
+menuitem.export.caption=Export
+menuitem.exit.caption=Exit
+menuitem.undo.caption=Undo
+menuitem.redo.caption=Redo
+menuitem.openimage.caption=Image
+menuitem.preferences.caption=Preferences
+menuitem.zoomin.caption=Zoom in
+menuitem.zoomout.caption=Zoom out
+menuitem.zoomactual.caption=Actual size
+checkboxmenuitem.showgrid.caption=Show grid
+checkboxmenuitem.showbounds.caption=Show bounds
+menuitem.plugins.caption=Plugins
+menuitem.about.caption=About
+menuitem.char.caption="{0}" ({1}) {2}
+
+# ToolBar data
+toolbar.editor.title=Toolbar
+toolbar.button.new.caption=
+toolbar.button.new.tooltip=New
+toolbar.button.open.caption=
+toolbar.button.open.tooltip=Open
+toolbar.button.save.caption=
+toolbar.button.save.tooltip=Save
+toolbar.button.export.caption=
+toolbar.button.export.tooltip=Export
+toolbar.button.undo.caption=
+toolbar.button.undo.tooltip=Undo
+toolbar.button.redo.caption=
+toolbar.button.redo.tooltip=Redo
+toolbar.button.marqueetool.caption=
+toolbar.button.marqueetool.tooltip=Tool "Marquee"
+toolbar.button.selecttool.caption=
+toolbar.button.selecttool.tooltip=Tool "Select"
+toolbar.button.openimage.caption=
+toolbar.button.openimage.tooltip=Image
+toolbar.button.zoomin.caption=
+toolbar.button.zoomin.tooltip=Zoom in
+toolbar.button.zoomout.caption=
+toolbar.button.zoomout.tooltip=Zoom out
+toolbar.button.zoomactual.caption=
+toolbar.button.zoomactual.tooltip=Actual size
+toolbar.button.preferences.caption=
+toolbar.button.preferences.tooltip=Preferences
+
+# Preferences data
+preferences.dialog.title=Preferences
+preferences.tabbedpane.tab.editor.caption=Editor
+preferences.tabbedpane.tab.preview.caption=Preview
+preferences.editor.titledborder.color.title=Color
+preferences.editor.label.bounds.caption=Bounds
+preferences.editor.colorchooser.bounds.title=Choose bounds color
+preferences.editor.label.background.caption=Background
+preferences.editor.colorchooser.background.major.title=Choose editor background major color
+preferences.editor.colorchooser.background.minor.title=Choose editor background minor color
+preferences.preview.titledborder.text.title=Text
+preferences.preview.radiobutton.none.caption=None
+preferences.preview.radiobutton.classic.caption=Classic
+preferences.preview.radiobutton.font.caption=Font
+preferences.preview.titledborder.color.title=Color
+preferences.preview.label.background.caption=Background
+preferences.preview.colorchooser.background.title=Choose preview background color
+preferences.button.ok.caption=OK
+preferences.button.cancel.caption=Cancel
+preferences.button.apply.caption=Apply
+
+# Plugins data
+plugins.dialog.title=Plugins
+plugins.table.column.provider.title=Provider
+plugins.table.column.name.title=Name
+plugins.table.column.version.title=Version
+plugins.table.column.description.title=Description
+plugins.button.ok.caption=OK
+
+# About data
+about.dialog.title=About
+about.textpane.title.text=FontEditor
+about.textpane.version.text=version {0}
+about.textpane.copyright.text=Copyright © {0} {1}. All rights reserved.
+about.button.ok.caption=OK
+
+# Editor data
+editor.label.char.caption=Char
+editor.label.charoffsetx.caption=OffsetX
+editor.label.charoffsety.caption=OffsetY
+editor.button.add.caption=Add
+editor.button.delete.caption=Delete
+editor.undoableedit.add.name=Add "{0}"
+editor.undoableedit.undo.add.name=Undo Add "{0}"
+editor.undoableedit.redo.add.name=Redo Add "{0}"
+editor.undoableedit.delete.name=Delete "{0}"
+editor.undoableedit.undo.delete.name=Undo Delete "{0}"
+editor.undoableedit.redo.delete.name=Redo Delete "{0}"
+
+# Preview data
+preview.label.size.caption=Size
+preview.label.spacing.caption=Spacing
+preview.label.leading.caption=Leading
+preview.label.preview.caption=Preview
+preview.text=A quick brown fox jumps over the lazy dog
+
+# Status data
+status.label.status.caption=
+status.label.coord.caption={0},{1}
+status.label.dimension.caption={0}x{1}
+status.label.scale.caption={0}%
+
+# Filechooser data
+filechooser.fontopen.title=Select file to open font
+filechooser.fontsave.title=Select file to save font
+filechooser.fontexport.title=Select file to export font
+filechooser.imageopen.title=Select file to open font image
+
+# Optionpane buttons
+optionpane.button.details.caption=Details
+
+# Dialog titles
+dialog.plain.title=Message!
+dialog.information.title=Important!
+dialog.question.title=Attention!
+dialog.warning.title=Warning!
+dialog.error.title=Error!
+
+# Dialog buttons
+dialog.button.ok.caption=OK
+dialog.button.yes.caption=Yes
+dialog.button.no.caption=No
+dialog.button.cancel.caption=Cancel
+dialog.button.skip.caption=Skip
+dialog.button.retry.caption=Retry
+dialog.button.ignore.caption=Ignore
+dialog.button.abort.caption=Abort
+
+# Dialog messages
+message.not.image.file.text=File "{0}" is not an image file!
+message.cant.read.file.text=Can't read "{0}" file!
+message.cant.write.file.text=Can't write to "{0}" file!
+message.cant.export.file.text=Can't export to "{0}" file!
+message.cant.find.file.text=Can't find "{0}" file!
+message.file.already.exist.text=File "{0}" already exists! Do you want to replace it?
+message.save.changes.text=Do you want to save changes?
+message.marquee.not.specified.text=No marquee area specified!
+message.char.not.specified.text=No char specified!
+message.char.not.found.text=Can't find char "{0}"!
+message.char.offset.not.specified.text=No char offset specified!
+message.char.offset.not.integer.text=Offset must be a numeric value!
+message.font.format.not.supported.text=Font format is not supported!
+message.font.image.file.not.image.text=Font image file "{0}" is not an image file!
+message.cant.read.font.image.file.text=Can't read font image file "{0}"!
+message.cant.find.font.image.file.text=Can't find font image file "{0}"!
+message.font.image.file.not.specified.text=Font image file is not specified!
+message.cant.undo.action.text=Can't undo "{0}" action!
+message.cant.redo.action.text=Can't redo "{0}" action!
+message.cant.save.properties.file.text=An error occured while saving properties file!
