@@ -1,5 +1,6 @@
 package com.keitaitoys.cocos2dfntfontplugin;
 
+import java.awt.Image;
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
@@ -11,6 +12,7 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.TreeSet;
 
+import javax.swing.ImageIcon;
 import javax.swing.filechooser.FileFilter;
 
 import com.keitaitoys.fonteditor.font.Symbol;
@@ -127,6 +129,8 @@ public class Cocos2dFNTFontWriterPlugin implements FontWriterPlugin {
 			
 			File sourceImageFile = font.getImageFile();
 			File destinationImageFile = null;
+			
+			Image img = (new ImageIcon(sourceImageFile.getAbsolutePath())).getImage();
 
 			Symbol space = font.getSymbol(' ');
 			
@@ -134,6 +138,13 @@ public class Cocos2dFNTFontWriterPlugin implements FontWriterPlugin {
 			writer = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
 
 			TreeSet<Symbol> symbols = new TreeSet<Symbol>(font.getSymbols());
+
+			String s = "info face=\"Font\" size="+font.getSize()+" bold=0 italic=0 charset=\"\" unicode=0 stretchH="+img.getHeight(null)+" smooth=0 aa=0 padding=0,0,0,0 spacing="+font.getSpacing()+","+font.getSpacing()+"\n";
+			s += "common lineHeight="+font.getLeading()+font.getSize()+" base="+font.getSize()+" scaleW="+img.getWidth(null)+" scaleH="+img.getHeight(null)+" pages=1 packed=0";
+			s += "page id=0 file=\""+sourceImageFile.getName()+"\"";
+			s += "chars count="+symbols.size();
+			
+			writer.write(s);
 			
 			for(Symbol symbol : symbols) {
 				
@@ -154,6 +165,7 @@ public class Cocos2dFNTFontWriterPlugin implements FontWriterPlugin {
 					writer.write(str);
 				}
 			}
+			writer.write("kernings count=-1");
 
 			// Writes any uncommited content of the buffer to the stream
 			writer.flush();
