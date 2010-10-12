@@ -67,7 +67,7 @@ public class Cocos2dFNTFontWriterPlugin implements FontWriterPlugin {
 	
 	public String getVersion() {
 		
-		return "1.0.0";
+		return "0.0.2";
 	}
 
 	//////////////////////////////////////////////////////////////////////
@@ -139,10 +139,11 @@ public class Cocos2dFNTFontWriterPlugin implements FontWriterPlugin {
 
 			TreeSet<Symbol> symbols = new TreeSet<Symbol>(font.getSymbols());
 
+			
 			String s = "info face=\"Font\" size="+font.getSize()+" bold=0 italic=0 charset=\"\" unicode=0 stretchH="+img.getHeight(null)+" smooth=0 aa=0 padding=0,0,0,0 spacing="+font.getSpacing()+","+font.getSpacing()+"\n";
-			s += "common lineHeight="+font.getLeading()+font.getSize()+" base="+font.getSize()+" scaleW="+img.getWidth(null)+" scaleH="+img.getHeight(null)+" pages=1 packed=0";
-			s += "page id=0 file=\""+sourceImageFile.getName()+"\"";
-			s += "chars count="+symbols.size();
+			s += "common lineHeight="+(font.getLeading()+font.getSize())+" base="+font.getSize()+" scaleW="+img.getWidth(null)+" scaleH="+img.getHeight(null)+" pages=1 packed=0\n";
+			s += "page id=0 file=\""+sourceImageFile.getName()+"\"\n";
+			s += "chars count="+symbols.size()+"\n";
 			
 			writer.write(s);
 			

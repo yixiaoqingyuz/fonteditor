@@ -62,7 +62,7 @@ public class Cocos2dFNTFontReaderPlugin implements FontReaderPlugin {
 	
 	public String getVersion() {
 		
-		return "1.0.0";
+		return "0.0.1";
 	}
 
 	//////////////////////////////////////////////////////////////////////
@@ -80,7 +80,7 @@ public class Cocos2dFNTFontReaderPlugin implements FontReaderPlugin {
 	
 	public String getDescription() {
 		
-		return "Reads font compatible with Cocos2d font format";
+		return "Reads font compatible with Cocos2d font format (not worked yet)";
 	}
 
 	//////////////////////////////////////////////////////////////////////
