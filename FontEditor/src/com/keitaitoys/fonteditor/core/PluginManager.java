@@ -50,6 +50,10 @@ public class PluginManager {
 			String pluginDirectory = propertiesManager.getProperty("plugin.directory", PLUGIN_DIRECTORY);
 
 			ClassUtils.addClassPathFile(new File(pluginDirectory));
+			if (FontEditor.DEBUG) {
+				File pluginPath = new File(pluginDirectory);
+				System.out.println("Plugin path="+pluginPath.getAbsolutePath());
+			}
 
 		} catch(Exception ignore) {}
 		
